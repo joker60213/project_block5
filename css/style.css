@@ -85,7 +85,7 @@ ul {
 .fotter_container {
     width: 222px;
     flex-direction: column;
-    position: absolute;
+    position: relative;
     bottom: 100px;
     display: flex;
     row-gap: 1px;
