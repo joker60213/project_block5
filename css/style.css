@@ -24,7 +24,6 @@ body {
     font-family: "TT Lakes", sans-serif;
     font-weight: 500;
     font-style: normal;
-    padding: 0px;
     margin: 0px;
     box-shadow: 16px 0 52px 0 rgba(14, 24, 80, 0.2), -2px 0 4px 0 rgba(69, 79, 126, 0.02);
     background:#fff;
@@ -81,6 +80,8 @@ ul {
     transition: color 0.3s;
 }
 
+
+
 .fotter_container {
     width: 222px;
     flex-direction: column;
@@ -89,6 +90,7 @@ ul {
     display: flex;
     row-gap: 1px;
     text-decoration:none;
+    
 }
 
 a:link {
@@ -135,4 +137,12 @@ a:link {
     pointer-events: none;
   }
 
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
+.fotter {
+    margin-top: auto;
+}
